@@ -14,17 +14,18 @@ function preload() {
 
 function setup() { 
   createCanvas(windowWidth, 800);
+  stroke(255, 255, 255);
   strokeWeight(1);
   noFill();
   
-  // declare the points as an array
-  points = [];
+  // // declare the points as an array
+points = [];
 } 
 
 // redraw the drawing
 function draw() { 
   // clear the background
-  background(255);
+  background(0, 0, 0);
   
   // draw all the points
   beginShape();
