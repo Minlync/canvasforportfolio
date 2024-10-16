@@ -9,7 +9,7 @@ function preload() {
 }
 
 function setup() { 
-  createCanvas(windowWidth, 800);
+  createCanvas(windowWidth, 500);
   stroke(255, 255, 255);
   strokeWeight(1);
   noFill();
