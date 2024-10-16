@@ -1,4 +1,4 @@
-var points; 
+var points; // points is an array of point
 
 function preload() {
   // points = loadJSON("drawings.json", function(){
@@ -50,7 +50,7 @@ function mouseDragged() {
 }
 
 function mouseReleased() {
-
+  // Add null to stop the line when the mouse is released
   points.push(null);
 }
 
